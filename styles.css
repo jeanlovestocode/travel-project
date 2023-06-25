@@ -174,12 +174,14 @@ main h3{
     font-weight: 700;
     color: #272044;
 }
+
 main h4{
     font-weight: 700;
-    font-size: 24px;
+    font-size: 23px;
     line-height: 1;
     color: #272044;
     margin: 0;
+    letter-spacing: 3px;
 }
 
 
