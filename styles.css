@@ -73,19 +73,22 @@ footer{
 }
 
 section{
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 100px;
+}
+
+section.section-2{
+    background: #F8F8F8;
+
 }
 footer h3{
-    font-family: var(--default-font);
     font-weight: 700;
     font-size: 20px;
     line-height: 1;
 }
 
 footer p{
-    font-family: var(--default-font);
     font-weight: 400;
     font-size: 16px;
     line-height: 1;
@@ -115,6 +118,36 @@ footer li{
       grid-template-columns: 1fr 1fr;
 }
 
+.grid-3-columns{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card{
+    background: #FFFFFF;
+    margin: 30px 0;
+}
+
+.card-body{
+    padding: 30px;
+}
+
+.card-footer {
+    padding: 0 30px 30px;
+}
+.btn{
+    display: block;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 16px;
+    background: #462cb3;
+    text-decoration: none;
+}
+
 .created{
     text-align: center;
 }
@@ -123,8 +156,7 @@ main{
     background: #FFFFFF;
 }
 main h2{
-    font-family: var(--default-font);
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 5px;
     line-height: 1.5;
     margin: 0;
@@ -136,22 +168,37 @@ main h2{
 
 main h3{
 
-    font-family: var(--default-font);
     font-size: 40px;
     line-height: 1.5;
     margin: 0;
     font-weight: 700;
     color: #272044;
 }
+main h4{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1;
+    color: #272044;
+    margin: 0;
+}
+
+
+main h5{
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #272044;
+    margin: 0;
+}
 
 main p{
 
-    font-family: var(--default-font);
     font-size: 16px;
     line-height: 1.5;
     color: #272044;
     opacity: 0.7;
 }
+
 .section-1-photo{
     background-position: center;
     background-repeat: no-repeat;
@@ -160,10 +207,27 @@ main p{
     height: 461px;
 }
 
-.responsive{
-    max-width: 100%;
+.section-2-photo{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 185px;
+    height: 185px;
 }
 
+
+.responsive{
+    max-width: 100%;
+    display: block;
+}
+
+.section-2 h3{
+    font-size: 48px;
+}
+
+.text-center{
+    text-align: center;
+}
 
 @media (max-width:900px) {
     header {
