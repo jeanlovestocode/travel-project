@@ -91,7 +91,6 @@ footer p{
     font-size: 16px;
     line-height: 1;
     opacity: 0.6;
-    margin-right: 20px;
 }
 
 footer a{
@@ -110,6 +109,7 @@ footer li{
 .grid{
     display: grid;
     grid-template-columns: 1fr 2fr 2fr;
+    grid-gap: 64px;
 }
 
 .created{
