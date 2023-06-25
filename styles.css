@@ -231,12 +231,21 @@ main p{
     display: block;
 }
 
+.gallery {
+    height: 370px;
+    padding: 20px;
+    margin: 10px 0;
+}
 .section-2 h3{
     font-size: 48px;
 }
 
 .text-center{
     text-align: center;
+}
+.footer-padding{
+    margin:  35px;
+    padding: 10px;
 }
 
 @media (max-width:900px) {
@@ -276,7 +285,30 @@ main p{
     .card-header img{
         display: none;
     }
+
+    .section-1-photo{
+        display: none;
+    }
     .embed{
         aspect-ratio: 16 / 9 ;
     }
+
+    .gallery{
+        display: block;
+        margin: 0 auto;
+        height: auto;
+        width: 100%;
+    }
+
+    main h3{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    main h2{
+        font-size: 13px;
+        text-align: center;
+    }
+   
+
 }
