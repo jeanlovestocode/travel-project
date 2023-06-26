@@ -6,12 +6,13 @@
 body{
     font-family: var(--default-font);
     background-color:#a2a8d3 ;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .container{
     max-width: 1400px;
     margin: 0 auto;
+   
 }
 
 
